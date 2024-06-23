@@ -564,13 +564,13 @@ public class MapTest {
 }
 ```
 
-![](maptest.png)
+![](img/maptest.png)
 
-![](mutations.png)
+![](img/mutations.png)
 
 Se puede ver que la cobertura aumenta:
 
-![](mapcovg.png)
+![](img/mapcovg.png)
 
 - Implementa mejoras en las pruebas unitarias basándote en los resultados de las pruebas de mutación y explica las razones de cada cambio.
 
@@ -1020,6 +1020,10 @@ public class TowerDefenseGameTest {
     }
 }
 ```
+
+Esta es la nueva cobertura en Pitest:
+
+![](img/pitest_after.png)
 
 #### Stubbing de métodos:
 - ¿Cómo usarías stubs en Mockito para simular el comportamiento del método getEnemies en la clase Wave durante las pruebas?
